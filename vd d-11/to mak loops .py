@@ -1,6 +1,6 @@
 
 ishant = "aladeen"
-clusyyy = "anshu"
+clusyyy = "priyanshu"
 hrsit = "spouk"
 
 aladeen = (' aladeen and im an"programer"')
