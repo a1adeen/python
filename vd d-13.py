@@ -51,3 +51,23 @@ print(again.count("again"))
 end = "hey my name is aladeen :)"
 print(end.endswith(":)"))
 # print(end.endswith(":)" , 15 , 20))
+
+
+# to find that where the word is 
+
+f = "hi my name is ishant "
+print(f.find("name"))
+
+# to we can use index instead of find for more accuracy that the word that we need to find exist or not
+
+# accu = "hi i am more accurate"  
+# print(accu.index("bhai"))
+
+
+# to find the starting letter of the string
+sring = "teri mummi "
+print(sring.startswith("teri"))
+
+# to make every 1st character capital
+first = "i am god "
+print(first.title())
