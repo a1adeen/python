@@ -10,36 +10,17 @@ else:
 # thats space before the print is called indentation     
 
 
-# by jousatta 
+# # by jousatta 
 
-a = (input("shit:"))
-if a.isdigit():
-
-
-# by fareal
-in = input("input text: ")
-if in.isdigit(): return somecomputation(in)
-else: return Exception("Dumb you are")
+# a = (input("shit:"))
+# if a.isdigit():
 
 
+# # by fareal
+# in = input("input text: ")
+# if in.isdigit(): return somecomputation(in)
+# else: return Exception("Dumb you are")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# continue from here
 
