@@ -1,2 +1,2 @@
-accu = "hi i am more accurate"  
-# print(accu.index("bhai"))
+   case _:
+        print("value of x is " , x)
