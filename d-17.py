@@ -21,3 +21,7 @@ for n in fame:
 # 
 for r in range(10):
     print(r)
+
+# to count in reverse
+for cout in reversed(range(1 , 11)):
+    print(cout)
