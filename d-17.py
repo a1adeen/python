@@ -11,3 +11,13 @@ for colors in color:
     print(colors)
 for i in color:
     print(i)    
+
+
+fame = ["ishant","aladeen"]
+for n in fame:
+    print(n)    
+
+
+# 
+for r in range(10):
+    print(r)
