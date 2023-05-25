@@ -34,3 +34,15 @@ elif(numb >= 10):
 
 # its working
         
+        # another example
+
+        # hey = int(input("vaule of x is :"))
+if(hey<10):
+    print("value of x is smaller than 10")
+elif(hey>0):
+     if(hey<=10 and hey>20):
+          print("value of x is under 10")
+     elif(hey>20 and hey<30):
+          print("value of x is greater than 20 and smaller than 30 ")
+else:
+     print("value of x is :")         
