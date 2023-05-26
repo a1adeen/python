@@ -25,3 +25,29 @@ for r in range(10):
 # to count in reverse
 for cout in reversed(range(1 , 11)):
     print(cout)
+
+for ji in range(1,11):
+    print(ji)
+
+
+
+mobileNo = "8287606404"
+
+for no in mobileNo:
+    print(no)
+
+
+# to skip a number 
+for my in range(1 , 21):
+    if(my == 16):
+      continue   
+    else:
+        print(my)
+
+
+# to break a loop 
+for teri in range(1 , 31):
+    if(teri == 26 ):
+        break        
+    else:
+        print(teri)

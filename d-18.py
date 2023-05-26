@@ -1,4 +1,4 @@
-# hwile loops
+# while loops
 
 i = 0 
 while (i < 10):
