@@ -1,2 +1,1 @@
-   case _:
-        print("value of x is " , x)
+    # name = input("enter your name :")  
