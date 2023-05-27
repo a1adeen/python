@@ -51,3 +51,7 @@ for teri in range(1 , 31):
         break        
     else:
         print(teri)
+
+# age = int(input("your age: "))
+# if age > 100: print("This uis can't be real"); age = int(input("your age: "))
+# elif age < 0: print("your age can't be -ve"); age = int(input("your age: "))        

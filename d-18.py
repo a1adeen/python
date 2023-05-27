@@ -23,3 +23,16 @@ print(f"your age is {age}")
 
 
 # brocode 4.42 
+
+age = int(input("your age: "))
+if age > 100:
+     print("This is can't be real"); 
+     age = int(input("your age: "))
+elif age < 0: 
+    print("your age can't be -ve"); 
+    age = int(input("your age: "))
+else:
+    print(f"your age is{age}")    
+
+
+# to give an unstopable error
