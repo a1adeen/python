@@ -30,3 +30,6 @@ for k in range(12):
         continue 
     print(k)
 
+
+    
+
