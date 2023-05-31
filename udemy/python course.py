@@ -9,3 +9,27 @@
 # tuples =          tup      ex - ("hey ", 27 , 10.4)
 # stes =            set      ex- {"a","b"}
 # booleans =        bool     ex- true and false
+name = "hello world"
+print(name[8])
+
+
+
+# naam = input("your name :")
+# print(f"my name is {naam}")
+
+naaam = input("your name :")
+age = input("your age :")
+print(f"your name is {naaam} and you are {age} yrs old")
+
+
+list = [ 1,2,3,34,4]
+print(list)
+
+
+def hey(a , b):
+    print(f"your name is {a}")
+    print(f" and u are {b}yrs old")
+
+hey("ishant", 8)
+
+
