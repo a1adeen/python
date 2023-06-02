@@ -7,7 +7,7 @@
 # lists  =          list     ex- ["hey ", 27 , 10.4]
 # dictionaries =    dict     ex- {"pass":"value","your name": "name"}
 # tuples =          tup      ex - ("hey ", 27 , 10.4)
-# stes =            set      ex- {"a","b"}
+# sets =            set      ex- {"a","b"}
 # booleans =        bool     ex- true and false
 name = "hello world"
 print(name[8])

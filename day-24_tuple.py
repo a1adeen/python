@@ -22,3 +22,21 @@
 
 
 # !tuples starts from here
+
+tup = (1,4,"hey")
+print(type(tup))
+print(tup)
+
+# tuples can't be edited with indexing == it will throw an error
+# example
+
+# lup = (34,3,66,36)
+# lup[0]= 90
+# print(lup)
+
+# tuple can be indexed only for printing single Value
+ney = (23,5,23563,46346)
+print(ney[0])
+print(ney[-1])
+if 122 in ney:
+    print("yes ney consist 122")
