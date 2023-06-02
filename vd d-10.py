@@ -1,7 +1,7 @@
 #taking input from user
 
-a = input("your ame here")
-print("hey i am", a)
+a = input("your name here : ")
+print(f"your name is {a}")
 
 
 # adding 2 var 
