@@ -10,4 +10,7 @@ def square(n):
 square(9)    
 print(square.__doc__)
 
+# pep - 8
+# to get a poem in terminal 
+# write import this 
 
