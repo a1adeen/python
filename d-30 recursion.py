@@ -25,7 +25,7 @@ print(factorial(0))
 # f2 = f1 + f0 
 # f(n) = f(n-1) + f(n-2)
 
-
+#! need to fix that 
 def fibonacci(f):
     if ( f == 0 ):
         return 0 
