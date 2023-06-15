@@ -17,3 +17,11 @@ for index, mark in enumerate(marks):
 #     if (index == 1):
 #         print("aladeen jod")
 # !fck this code
+
+
+# revision code 
+# hey = (input("write 'aladeen' here :"))
+# if (hey == "aladeen"):
+#     print("great !!")
+# else:
+#     raise ValueError("didn't entered the given string")
