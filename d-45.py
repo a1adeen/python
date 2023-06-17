@@ -1,5 +1,6 @@
-from for_importing2 import *
+# from for_importing2 import *
+import for_importing2
 
 
 welcome("aladeen")
-# will continue from  d -45  4min 
+print(__name__)
