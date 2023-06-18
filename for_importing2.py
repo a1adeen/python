@@ -9,7 +9,7 @@
 
 
 # welcome()
-
+hi = 3
 # using while loop 
 def welcome(name):
     hey = (f"{name} your welcome")
@@ -21,6 +21,8 @@ def welcome(name):
              print("no integers are allowed")
            except:
                print(hey)
-if __name__  == "__main__":
- welcome("hey")     
-print(__name__)
+
+# print(__name__)               
+# if __name__  == "__main__":
+welcome("aladeen")     
+
