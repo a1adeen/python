@@ -13,12 +13,12 @@ for i in range(1, 10):
 for i in range(1 , 10 ):
     os.rename(f"new/days{i + 2}", f"new/numers {i + 2}")
 
-to check how many folders are  theere in directtory 
+# to check how many folders are  theere in directtory 
 folders = os.listdir("new")
 print(folders)
 
 
-or 
+# or 
 
 for folder in folders:
     print(folder)
