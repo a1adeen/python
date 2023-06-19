@@ -25,3 +25,13 @@ for folder in folders:
 
 
 
+
+
+
+
+
+
+
+# os.mkdir(".t")
+# for i in range(1,190):
+#     os.mkdir(f".t/hey{ i + 1}")
