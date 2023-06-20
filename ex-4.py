@@ -3,7 +3,7 @@
 
 st = (input("enter the string here :"))
 words = st.split("  ")
-coding = False
+coding = True
 if(coding):
     nwords = []
     for word in words:
