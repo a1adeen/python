@@ -34,12 +34,12 @@ file.close()
 # hi.close()
 # print(read)
 
-
-apppending = open('new.txt' , 'a')
-apppending.write("   : its the new text here")
-apppending.close()
-
-
+#
+# apppending = open('new.txt,'a')
+# apppending.write("   : its the new text here")
+# apppending.close()
 
 
-
+new = open('nex.txt', 'w')
+new.write("hey how are uits new line added here")
+new.close()

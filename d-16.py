@@ -14,4 +14,3 @@ match x:
 
     # case _ if x >= 10:
     #     print("x is smaller than 10")    
-            
