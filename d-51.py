@@ -18,5 +18,3 @@ with open('ggs.txt','r') as f:
 
 
 # did seek , tell and trunket in file handling
-
-
