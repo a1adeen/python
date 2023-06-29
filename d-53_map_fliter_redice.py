@@ -67,5 +67,4 @@ def sum( x , y ):
 
 he = ["h", "e" , "l", "l", "0"]
 helo = reduce(sum , he)
-print(helo)
 
