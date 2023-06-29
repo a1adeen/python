@@ -21,10 +21,9 @@ elif start == 0:
     print("you lost")
 if start == 1:
     print("u wins")
-elif(start == ""):
-        raise ValueError("no strings are allowed here")
+
 else:
-    print("teri mummi")
+   raise ValueError("no strings are allowed")
 
 
 
