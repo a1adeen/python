@@ -28,3 +28,17 @@ class Studen:
 
 aladeen = Studen("aladeen" , "12th B")
 aladeen.info()
+
+
+class Teri:
+  def __init__(self , n , r):
+    print("activated")
+    self.name = n
+    self.rate = r
+  def info(self):
+      print(f"{self.name} have {self.rate}rs in his pocket")
+
+bhai = Teri("aladeen" , 100)
+bhai.info()      
+
+
