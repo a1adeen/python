@@ -1,9 +1,17 @@
-       nwords = []
-# for word in words:
-#      if(len(word)>= 3):
-#         st_new = word [ 3: -3]
-#         st_new =   word[-1] + word[: -1]
-#         nwords.append(st_new)
-#      else:
-#         nwords.append(word[:: -1])
-#         print("".join(nwords))
+
+
+# # practising 
+# def welcome(fx):
+#     def mkj():
+#         print("good morning")
+#         fx()
+#         print("thanks for using this fuction")
+#     return mkj
+
+
+# @welcome
+# def name():
+#     Name = (input("whats your name :"))
+#     print(f"{Name} your name has been registered")
+
+# name()    
