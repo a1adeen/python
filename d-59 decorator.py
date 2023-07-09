@@ -18,7 +18,7 @@ entry()
 
 
 
-# practising 
+# practising
 def welcome(fx):
     def mkj(*arg , ** kwargs):
         print("good morning")
@@ -32,7 +32,7 @@ def name():
     Name = (input("whats your name :"))
     print(f"{Name} your name has been registered")
 
-name()    
+name()
 
 
 @welcome
@@ -41,7 +41,6 @@ def avg(a , b):
     print(avr)
 
 avg(3 ,4)
-
 
 
 
