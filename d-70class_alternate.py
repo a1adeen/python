@@ -44,10 +44,10 @@ class Player:
         print("player class is activated")
         self.naam = naam
         self.rank = rank
-        print(f"{self,naam} is on {self.rank} in valorant")
+        print(f"{self.naam} is on {self.rank} in valorant")
     @classmethod
-    def cust(pls , string):
-        return pls(string.split(",")[0] , string.split(",")[1])
+    def cust(cls , string):
+        return cls(string.split(",")[0] , string.split(",")[1])
 he = "aladeen,ace"
 es_8 = Player.cust(he)
 # print(es_8)
