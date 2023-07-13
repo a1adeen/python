@@ -1,4 +1,4 @@
-# super keyword
+# # super keyword
 # class Parent:
 #     def parent_method(self):
 #         print("this is parent class ")
@@ -57,6 +57,45 @@
 # aladeen = Programar("aladeen" , 9090 , "python")
 # print(hey.name)
 # print(aladeen.lang)
+
+
+
+
+
+
+
+
+
+
+
+# last practise
+
+class Hieght:
+    def __init__(self , h):
+        self.h = h
+
+    def show(self):
+        print(f"hieght of the person is {self.h}")
+
+
+class Wieght(Hieght):
+    def __init__(self , h , w):
+        super().__init__( h)
+        self.w = w
+    def ic_w(self):
+        print(f"wieght of the person is : {self.w}   hieght of the person is :{self.h}")
+
+
+person_1 =Hieght(190)
+person_1.show()
+
+
+person_2 = Wieght(190 , 90)
+person_2.ic_w()
+# print(person_2.ic_w.__dict__())
+
+
+
 
 
 
