@@ -1,7 +1,7 @@
 import requests
 import csv 
 
-from requests.api import head
+from requests  import head
 
 
 url = "http://api.coincap.io/v2/assets"

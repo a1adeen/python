@@ -1,12 +1,10 @@
-name = ("ishant,aladeen")
-# for specific words
-print(name[7:11])
-# for whole
-print(name[:])
-print(name[:4])
-#quiz quest
-name = "harry"
-print(name[-4:-2])
+import requests
+import csv 
 
-#answer should be har
-#its wrong ans qill be ar
+from requests.api import head
+
+
+url = "http://api.coincap.io/v2/assets"
+response = requests.request("GET" , url , data={})
+myjson = response.json()
+print(myjson)
