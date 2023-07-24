@@ -1,3 +1,7 @@
 # request module
 import requests
-print("hey")
+
+# print(dir(requests))
+
+response = requests.get("https://github.com/a1adeen")
+print(response.text)
