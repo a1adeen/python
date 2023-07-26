@@ -18,3 +18,10 @@ print(r.text)
 
 with open("insta.html" ,"w") as i:
     i.write(r.text)
+
+
+
+# trying funciton of request module
+r = requests.get("https://poetrydb.org/title/Ozymandias/lines.json")
+print(r.status_code)
+print(r.json())
