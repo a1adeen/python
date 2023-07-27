@@ -43,3 +43,35 @@ for nu in fibnaaci(15):
     print(nu)
 
 # print(len(nu))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def my_def(m):
+    a = 0
+    b = 1
+    # c= a + b
+
+    for k in range(m):
+        yield a
+        a,b = b , a+b
+
+
+for i in my_def(16):
+    print(i)
+
