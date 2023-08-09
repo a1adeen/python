@@ -1,5 +1,6 @@
 # card game
 import random
+from random import shuffle
 
 
 
@@ -60,9 +61,28 @@ class Deck:
         for suit in suits:
             for rank in ranks:
 
-                createrd_crads = (suit , rank)
+                createrd_crads = f"{rank} of {suit}"
 
                 self.all_cards.append(createrd_crads)
+# to shuffle the deck
+    def shuffle(self):
+            random.shuffle(self.all_cards)
 
-# new_deck = Deck()
-# print(new_deck.all_cards[-1])
+
+# to take thesingle card from the deck
+
+    def get_one(self):
+       return self.all_cards.pop()
+
+
+
+
+
+# choosing cards form here
+deck_card = Deck()
+# when we use this all the cards got shuffles in a deck
+deck_card.shuffle()
+# here is the card to show that the deck is shuffling
+print(deck_card.all_cards[-1])
+# poping card from the deck
+print(deck_card.get_one())
