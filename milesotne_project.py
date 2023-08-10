@@ -94,15 +94,75 @@ class Player:
     def __str__(self):
         return f"{self.name} have {len(self.all_cards)} cards"
 
-new_deck = Deck()
-new_deck.shuffle()
-mycard = new_deck.get_one()
-print(mycard)
-hiten = Player("hiten")
-hiten.add_card(mycard)
-hiten.add_card([mycard , mycard])
-print(hiten)
-#
+
+
+                                        # Game logic
+                 # game setup          #while game on             #while at war
+
+
+
+
+player_1 =  Player("one")
+player_2 =  Player("two")
+
+
+new_gameDeck = Deck()
+new_gameDeck.shuffle()
+
+# to give cards to both of them
+
+
+for x in range(26):
+    player_1.add_card(new_gameDeck.get_one())
+    player_2.add_card(new_gameDeck.get_one())
+
+# print(len(player_1.all_cards))
+
+# starting game
+
+game_on = True
+rounds = 0
+
+while game_on:
+    rounds += 1
+    print(f"round {rounds}")
+
+
+
+    if len(player_1.all_cards) == 0:
+        print(f"player_1 , out of cards PLAYER 2 wins the game!!!!")
+        game_on = False
+        break
+
+
+    if len(player_2.all_cards) == 0 :
+        print(f"player_1 , out of cards PLAYER 2 wins the game!!!!")
+        game_on = False
+        break
+
+
+
+# start a new round
+
+player_1_cards = []
+player_1_cards.append(player_1.remove_card())
+
+player_2_cards = []
+player_2_cards.append(player_2.remove_card())
+
+
+
+
+
+# new_deck = Deck()
+# new_deck.shuffle()
+# mycard = new_deck.get_one()
+# print(mycard)
+# hiten = Player("hiten")
+# hiten.add_card(mycard)
+# hiten.add_card([mycard , mycard])
+# print(hiten)
+# #
 # # choosing cards form here
 # deck_card = Deck()
 # # when we use this all the cards got shuffles in a deck
