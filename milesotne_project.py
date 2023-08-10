@@ -73,16 +73,41 @@ class Deck:
 
     def get_one(self):
        return self.all_cards.pop()
+# player class
+class Player:
+    def __init__(self , name):
+        self.name = name
+        self.all_cards = []
 
 
+    def remove_card(self):
+        return self.all_cards.pop(0)
 
+    def add_card(self , new_cards):
+        # when there is more than 1 card to add
+       if type(new_cards) == type([]):
+           return self.all_cards.extend(new_cards)
+       # when there is only 1 card to add
+       else:
+           self.all_cards.append(new_cards)
 
+    def __str__(self):
+        return f"{self.name} have {len(self.all_cards)} cards"
 
-# choosing cards form here
-deck_card = Deck()
-# when we use this all the cards got shuffles in a deck
-deck_card.shuffle()
-# here is the card to show that the deck is shuffling
-print(deck_card.all_cards[-1])
-# poping card from the deck
-print(deck_card.get_one())
+new_deck = Deck()
+new_deck.shuffle()
+mycard = new_deck.get_one()
+print(mycard)
+hiten = Player("hiten")
+hiten.add_card(mycard)
+hiten.add_card([mycard , mycard])
+print(hiten)
+#
+# # choosing cards form here
+# deck_card = Deck()
+# # when we use this all the cards got shuffles in a deck
+# deck_card.shuffle()
+# # here is the card to show that the deck is shuffling
+# print(deck_card.all_cards[-1])
+# # poping card from the deck
+# print(deck_card.get_one())
