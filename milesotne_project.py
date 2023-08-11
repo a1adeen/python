@@ -152,9 +152,51 @@ player_2_cards.append(player_2.remove_card())
 
 
 
+# while at war
 
 
-# new_deck = Deck()
+
+at_war = True
+
+while at_war:
+    if player_1_cards[-1].value > player_2_cards[-1].value:
+        player_1_cards.append(player_1_cards)
+        player_1_cards.append(player_2_cards)
+
+        at_war = False
+    elif  player_1_cards[-1].value < player_2_cards[-1].value:
+        player_2_cards.append(player_1_cards)
+        player_2_cards.append(player_2_cards)
+
+        at_war = False
+
+    else:
+        print("WAR!!!!")
+
+
+        if len(player_1_cards) < 3:
+            print("player_1 is unable to declare the war ")
+            print("player 2 wins ")
+
+            game_on = False
+            break
+
+
+        elif len(player_2_cards) < 3:
+            print("player_2 is unable to declare the war ")
+            print("player 1 wins ")
+
+            game_on= False
+            break
+
+        else:
+            for num in range(3):
+                player_1_cards.append(player_1.remove_card())
+                player_2_cards.append(player_2.remove_card())
+
+
+
+        # new_deck = Deck()
 # new_deck.shuffle()
 # mycard = new_deck.get_one()
 # print(mycard)
