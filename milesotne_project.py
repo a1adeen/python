@@ -193,7 +193,7 @@ while at_war:
             for num in range(3):
                 player_1_cards.append(player_1.remove_card())
                 player_2_cards.append(player_2.remove_card())
-he = 8
+
 
 
         # new_deck = Deck()
