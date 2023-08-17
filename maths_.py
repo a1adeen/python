@@ -1,4 +1,4 @@
-# import random
+import random
 import math
 
 
@@ -12,4 +12,6 @@ print(math.ceil(value))
 # inbuilding funvtion for floor
 print(round(value))
 
+
+# print(dir(random))
 
