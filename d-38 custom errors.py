@@ -9,7 +9,7 @@
 
 hey = (input("write 'quit' here :"))
 if(hey == "quit"):
-    print(hey)
+    print("u did this")
 else:
     raise ValueError("this can't be exepted")
 
