@@ -12,3 +12,14 @@ fin = "hey my name is aladeen , hey my name is aladeen"
 find = 'hey'
 hei = re.findall(find , fin)
 print(len(hei))
+
+# part 2
+my_text = 'my mobile number is 494-343-344777'
+hunt = re.findall('\d\d\d-\d\d\d-\d\d\d' , my_text)
+print(hunt)
+
+
+# or
+
+hunt_2 = re.findall('\d{3}-\d{3}-\d{3}' , my_text)
+print(hunt_2)
