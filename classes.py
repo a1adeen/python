@@ -97,3 +97,27 @@ class Billi(ANimal_2):
 
 kutt = Kuuta(naam='hey')
 print(kutt.says())
+hii = Billi(naam='skslc')
+print(hii)
+
+
+
+
+# magic and dunder method
+class Book():
+
+    def __init__(self , tittle, author , page):
+        self.tittle = tittle
+        self.author = author
+        self.page = page
+
+    def __str__(self):
+        return f'{self.tittle} of {self.author}'
+
+    def __del__(self):
+        return "this object has been deleted"
+
+
+
+hey_4 = Book('intelligent investor' , 'benjamin grahmin' , 664)
+print(hey_4)
