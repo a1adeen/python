@@ -16,7 +16,7 @@ class Line():
 
 
 cords = Line(3,2,8,10)
-print(cords.slope())
+# print(cords.slope())
 
 
 
@@ -34,8 +34,36 @@ class Cylinder():
 
 
 cyl = Cylinder(2 , 3)
-print(cyl.surfcae_area())
+# print(cyl.surfcae_area())
 
 
 
+# exercise 2
 
+
+class Bank__acc():
+    def __init__(self , owner , balance):
+        self.owner = owner
+        self.balance = balance
+
+    def __str__(self):
+        return f'Account Owner : {self.owner}\nAcccount Balance : {self.balance}'
+
+    def depoite(self , ad):
+        print('deposit accepted ')
+        new_amount = self.balance + ad
+        return f'current balance is {new_amount}'
+
+    def withdrwall(self , taken):
+        withdrawl = self.balance - taken
+
+        if taken > self.balance:
+            return'funds unavaileble'
+        else:
+            print('withdrwal hase been made')
+            return f'current balace {withdrawl}'
+
+
+
+new_acc = Bank__acc('aladeen' , 1000)
+print(new_acc)
