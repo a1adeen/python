@@ -7,7 +7,33 @@ dict_1 = {
     'city' : [ 'rampur' , 'delhi' , 'kanpur']
 }
 
-
+# to make an excel sheet
 frame = pd.DataFrame(dict_1)
 print(frame)
-frame.to_csv('data.csv')
+# to remove the index
+frame.to_csv('data_index.csv' , index = False)
+
+
+# print(frame.head(1))
+
+
+# to get the detailed analysis
+print(frame.describe())
+
+
+# to check the particular column
+data = pd.read_csv('data_index.csv')
+print(data['marks'])
+
+
+# to change the value in excel
+#
+# changes = data['marks'][0] = 90
+# print(changes)
+
+
+
+# to change the indexs
+
+data.index = ['phla' , 'dusra' , 'teesra']
+print(data)
