@@ -23,3 +23,37 @@ new_height = int(image.shape[0] * scale_perc / 100)
 output= cv2.resize(image , (new_widht , new_height))
 cv2.imwrite('new_imag.jpg' , output)
 cv2.waitKey(0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src = cv2.imread('aladeen .jpg' , cv2.IMREAD_UNCHANGED)
+cv2.imshow('title' ,src )
+cv2.waitKey(0)
