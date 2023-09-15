@@ -14,4 +14,8 @@ while True:
     dict = json.loads(r.text)
     temp_c = dict['current']['temp_c']
     print(temp_c)
-    os.system(f'say {temp_c}')
+    os.system(f"say 'weather in {city} is {temp_c} in degree'")
+
+
+
+print(dir(os))
