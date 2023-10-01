@@ -17,5 +17,10 @@ soup = BeautifulSoup(htmlcontent , 'html.parser')
 
 # to get the tag
 #
-title= soup.title
-print(title)
+title= soup.li
+print(type(title))
+
+
+# to get all the elements for the tag
+
+

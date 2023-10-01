@@ -2,7 +2,7 @@ import PyPDF2
 
 
 
-pdfs = ["new copy1.pdf" , "newOne.pdf"]
+pdfs = ["new_re.pdf" , "new_re2.pdf"]
 
 merger = PyPDF2.PdfMerger()
 
@@ -11,4 +11,4 @@ for filename in pdfs:
     pdf_reader = PyPDF2.PdfReader(pdffile)
     merger.append(pdf_reader)
 pdffile.close()
-merger.write('main.pdf')
+merger.write('merger.pdf')
