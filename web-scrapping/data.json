@@ -1,0 +1,25 @@
+
+
+[
+  {
+  "user_1" : "ishant",
+  "highest" : 99,
+  "lowest" : 9,
+  "fav. food" : ["paneer" , "hiten"],
+  "friends" : [{
+    "f_1" : "hieten",
+    "f_2" : "summer"
+  }]
+  },
+  {
+    "name" : "aladeen",
+    "salary" : 909009 ,
+    "experties" : {
+      "business" : "finance",
+      "sport"  : "cricket"
+
+    }
+  }
+
+
+]
